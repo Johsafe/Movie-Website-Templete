@@ -1,0 +1,92 @@
+[
+    {
+        "title":"Blue Beetle",
+        "imdb":"9.8",
+        "year":"2023",
+        "sposter":"images/blue_beetle.jpg",
+        "bposter":"images/blue_beetle1.jpg",
+        "genre":"Superhero"        ,
+        "type":"Movie",
+        "url":"",
+        "trailer":"videos/y2mate.com - Blue Beetle_1080p.mp4",
+        "low":"480ph",
+        "medium":"720.ph",
+        "high":"1080ph",
+        "href": "Blue_Beetle_(film)",
+        "extract": "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
+    },
+    {
+        "title":"65",
+        "imdb":"9.4",
+        "year":"2023",
+        "sposter":"images/651.jpg",
+        "bposter":"images/652.jpeg",
+        "genre":"Sci-Fi",
+        "genres": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+          ],
+        "type":"Movie",
+        "url":"",
+        "trailer":"videos/tomp3.cc - 65_1080p.mp4",
+        "low":"480ph",
+        "medium":"720.ph",
+        "high":"1080ph",
+        "href": "65_(film)",
+        "extract": "65 is a 2023 American science fiction action thriller film written and directed by Scott Beck and Bryan Woods and starring Adam Driver and Ariana Greenblatt. It is a co-production between Columbia Pictures, Bron Creative, Raimi Productions, TSG Entertainment, and Beck/Woods. In the film, a pilot crashes on an unknown planet, which turns out to be Earth during the Cretaceous period, and fights to survive the dangerous prehistoric environment."
+    },
+    {
+        "title":"Beast",
+        "imdb":"8.9",
+        "year":"2022",
+        "sposter":"images/beast.jpg",
+        "bposter":"images/beast1.webp",
+        "genre":"Sci-Fi",
+        "type":"Movie",
+        "url":"",
+        "trailer":"videos/tomp3.cc - Beast 2022_1080p.mp4",
+        "low":"480ph",
+        "medium":"720.ph",
+        "high":"1080ph",
+        "genres": [
+            "Action",
+            "Horror"
+        ],
+        "href": "Beast_(2022_American_film)",
+        "extract": "Beast is a 2022 survival action horror film directed by Baltasar Kormákur from a screenplay by Ryan Engle, based on a story by Jaime Primak Sullivan. The film stars Idris Elba, Iyana Halley, Leah Sava Jeffries, and Sharlto Copley. It follows a widowed father and his two teenage daughters who visit a South African game reserve but must fight to survive when they are stalked and attacked by a ferocious, rogue, man-killing lion."
+    },
+    {
+        "title":"The Creator",
+        "imdb":"7.1/10",
+        "year":"2023",
+        "sposter":"images/the_creator.jpg",
+        "bposter":"images/the_creator1.jpg",
+        "genre":"Sci-Fi",
+        "type":"Movie",
+        "url":"",
+        "trailer":"videos/tomp3.cc - The Creator_1080p.mp4",
+        "low":"480ph",
+        "medium":"720ph",
+        "high":"1080ph",
+        "extract":"As a future war between the human race and artificial intelligence rages on, ex-special forces agent Joshua is recruited to hunt down and kill the Creator, the elusive architect of advanced AI. The Creator has developed a mysterious weapon that has the power to end the war and all of mankind. As Joshua and his team of elite operatives venture into enemy-occupied territory, they soon discover the world-ending weapon is actually an AI in the form of a young child."
+    },
+    {
+        "title": "Aquaman and the Lost Kingdom",
+        "year": 2023,
+        "imdb":"7.1/10",
+        "sposter":"images/aquaman.jpg",
+        "bposter":"images/aquaman1.jpg",
+        "type":"Movie",
+        "url":"",
+        "trailer":"videos/",
+        "genres": [
+          "Superhero"
+        ],
+        "href": "Aquaman_and_the_Lost_Kingdom",
+        "extract": "Aquaman and the Lost Kingdom is an upcoming American superhero film based on the DC Comics character Aquaman. Produced by DC Studios, the Safran Company, and Atomic Monster Productions, and set for distribution by Warner Bros. Pictures, it is intended to be the sequel to Aquaman (2018), and the 15th and final installment in the DC Extended Universe (DCEU). The film is directed by James Wan from a screenplay written by David Leslie Johnson-McGoldrick, and stars Jason Momoa as Arthur Curry / Aquaman alongside Amber Heard, Willem Dafoe, Patrick Wilson, Dolph Lundgren, Yahya Abdul-Mateen II, Temuera Morrison, and Nicole Kidman.",
+        "low":"480ph",
+        "medium":"720ph",
+        "high":"1080ph"
+      }  
+]
