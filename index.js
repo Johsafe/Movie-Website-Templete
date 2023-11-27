@@ -36,7 +36,9 @@ fetch(json_url).then(Response => Response.json())
             cards.appendChild(card);  
         });
 
-        document.getElementById('title').innerText = data[0].title;
+        // document.getElementById('title').innerText = data[0].title;
+        // // document.getElementById('title')[0].src = data[0].title;
+        document.getElementById('title').src = data[0].title1;
         document.getElementsByTagName('video')[0].src = data[0].trailer;
         document.getElementById('plot').innerText = data[0].extract;
         document.getElementById('gen').innerText = data[0].genre;
