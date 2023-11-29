@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>65 | Movie</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <video
+        id="video1"
+        src="videos/tomp3.cc - Beast 2022_1080p.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <!-- <video id="video2" src="videos/tomp3.cc - 65_1080p.mp4" autoplay muted loop></video>
+        <video id="video3" src="videos/y2mate.com - Blue Beetle_1080p.mp4" autoplay muted loop></video>       -->
+      <nav>
+        <div class="logo_ul">
+          <img src="images/movielogo.png" alt="logo" />
+          <ul>
+            <li><a href="/" id="home">Home</a></li>
+            <li><a href="#" id="series">Series</a></li>
+            <li><a href="#" id="movies">Movies</a></li>
+            <li><a href="#" id="kids">Kids</a></li>
+          </ul>
+        </div>
+        <div class="search_user">
+          <input type="text" placeholder="search..." id="search_input" />
+          <i class="bx bx-search"></i>
+          <img class="prof-icon" src="images/favicon.png" alt="" />
+          <div class="search">
+            <!-- <a href="#" class="card">
+                        <img src="images/aquaman.jpg" alt="">
+                        <div class="cont">
+                            <h3>Aquaman</h3>
+                            <p>Action , 2023, <span>IMDB</span><i class='bx bxs-star' ></i>9.9</p>
+                        </div>
+                    </a> -->
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <img id="title" src="/titles/beast_title.png" alt="" />
+        <p id="plot">
+          Recently widowed Dr. Nate Daniels and his two teenage daughters travel
+          to a South African game reserve managed by Martin Battles, an old
+          family friend and wildlife biologist. However, what begins as a
+          journey of healing soon turns into a fearsome fight for survival when
+          a lion, a survivor of bloodthirsty poachers, begins stalking them.
+        </p>
+        <div class="details">
+          <h6>A Netflix Origin Film</h6>
+          <h5 id="gen">Thriller</h5>
+          <h4 id="date">2022</h4>
+          <h3 id="rate"><span>IMDB</span><i class="bx bxs-star"></i>9.8</h3>
+        </div>
+        <div class="btns">
+          <a href="#" id="play">Watch <i class="bx bx-play-circle"></i></a>
+          <a href="#" download="65 480p" id="low_q">480P</a>
+          <a href="#" download="65 720p" id="medium_q">720p</a>
+          <a href="#" download="65 1080p" id="high_q">1080p</a>
+        </div>
+      </div>
+      <section>
+        <h4>Popular</h4>
+        <i class="bx bx-chevron-left"></i>
+        <i class="bx bx-chevron-right"></i>
+        <div class="cards">
+          <!-- <a href="#" class="card">
+                    <img src="images/the_creator.jpg" alt="" class="poster">
+                    <div class="card_body">
+                        <img src="images/the_creator1.jpg" alt="">
+                        <div class="cont">
+                            <h4>The Creator</h4>
+                            <div class="sub">
+                                <p>Action,2023</p>
+                                <h3><span>IMDB</span><i class='bx bxs-star' ></i>9.8</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>                 -->
+        </div>
+      </section>
+    </header>
+
+    <script src="index.js"></script>
+    <script>
+      fetch(json_url)
+        .then((Response) => Response.json())
+        .then((data) => {
+          let movies_array = data.filter((ele) => {
+            return ele.title === "65";
+          });
+
+          document.getElementById("low_q").href = movies_array[0].low;
+          document.getElementById("medium_q").href = movies_array[0].medium;
+          document.getElementById("high_q").href = movies_array[0].high;
+
+          document.getElementById("title").src = movies_array[0].title1;
+          document.getElementsByTagName("video")[0].src =
+            movies_array[0].trailer;
+          document.getElementById("plot").innerText = movies_array[0].extract;
+          document.getElementById("gen").innerText = movies_array[0].genre;
+          document.getElementById("date").innerText = movies_array[0].year;
+          document.getElementById(
+            "rate"
+          ).innerHtml = `<span>IMDB</span><i class='bx bxs-star' ></i>${movies_array[0].imdb}`;
+        });
+    </script>
+  </body>
+</html>
