@@ -1,6 +1,6 @@
 
-const API_KEY = 'api_key=55c93d9eb61b41f00f8b324eaf5a4ec2';
-const ACCESS_TOKEN ='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NWM5M2Q5ZWI2MWI0MWYwMGY4YjMyNGVhZjVhNGVjMiIsInN1YiI6IjY1NjZlYjM3ODlkOTdmMDBhYjE2NTBlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.k5unriLG040cO6IPQhE1M1-PD3nKfrkh6I4lu4As_hs'
+const API_KEY = '';
+const ACCESS_TOKEN =''
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&'+API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
@@ -108,7 +108,7 @@ const options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NWM5M2Q5ZWI2MWI0MWYwMGY4YjMyNGVhZjVhNGVjMiIsInN1YiI6IjY1NjZlYjM3ODlkOTdmMDBhYjE2NTBlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.k5unriLG040cO6IPQhE1M1-PD3nKfrkh6I4lu4As_hs'
+      Authorization: 'Bearer ACCESS_TOKEN'
     }
     };
     
